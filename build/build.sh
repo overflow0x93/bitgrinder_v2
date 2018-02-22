@@ -4,8 +4,8 @@
 cmake ../ && make
 
 # Testing
-make test
-ctest --output-on-failure
+# make test
+# ctest --output-on-failure
 
 # Building to a different root directory
-cmake -DCMAKE_INSTALL_PREFIX=/opt/mypackage ../src
+# cmake -DCMAKE_INSTALL_PREFIX=/opt/mypackage ../src
