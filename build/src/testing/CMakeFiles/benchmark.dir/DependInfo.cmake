@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dev/git/bitgrinder_v2/src/testing/benchmark.cpp" "/home/dev/git/bitgrinder_v2/build/src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o"
+  "/home/dev/git/bitgrinder_v2/src/testing/system/curled.cpp" "/home/dev/git/bitgrinder_v2/build/src/testing/CMakeFiles/benchmark.dir/system/curled.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

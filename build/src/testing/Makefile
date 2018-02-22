@@ -178,6 +178,33 @@ benchmark.cpp.s:
 	cd /home/dev/git/bitgrinder_v2/build && $(MAKE) -f src/testing/CMakeFiles/benchmark.dir/build.make src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.s
 .PHONY : benchmark.cpp.s
 
+system/curled.o: system/curled.cpp.o
+
+.PHONY : system/curled.o
+
+# target to build an object file
+system/curled.cpp.o:
+	cd /home/dev/git/bitgrinder_v2/build && $(MAKE) -f src/testing/CMakeFiles/benchmark.dir/build.make src/testing/CMakeFiles/benchmark.dir/system/curled.cpp.o
+.PHONY : system/curled.cpp.o
+
+system/curled.i: system/curled.cpp.i
+
+.PHONY : system/curled.i
+
+# target to preprocess a source file
+system/curled.cpp.i:
+	cd /home/dev/git/bitgrinder_v2/build && $(MAKE) -f src/testing/CMakeFiles/benchmark.dir/build.make src/testing/CMakeFiles/benchmark.dir/system/curled.cpp.i
+.PHONY : system/curled.cpp.i
+
+system/curled.s: system/curled.cpp.s
+
+.PHONY : system/curled.s
+
+# target to generate assembly for a file
+system/curled.cpp.s:
+	cd /home/dev/git/bitgrinder_v2/build && $(MAKE) -f src/testing/CMakeFiles/benchmark.dir/build.make src/testing/CMakeFiles/benchmark.dir/system/curled.cpp.s
+.PHONY : system/curled.cpp.s
+
 testing.o: testing.cpp.o
 
 .PHONY : testing.o
@@ -219,6 +246,9 @@ help:
 	@echo "... benchmark.o"
 	@echo "... benchmark.i"
 	@echo "... benchmark.s"
+	@echo "... system/curled.o"
+	@echo "... system/curled.i"
+	@echo "... system/curled.s"
 	@echo "... testing.o"
 	@echo "... testing.i"
 	@echo "... testing.s"

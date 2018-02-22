@@ -1309,3 +1309,8 @@ src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o
  /usr/local/include/boost/utility/result_of.hpp
  /usr/local/include/boost/utility/swap.hpp
  /usr/local/include/boost/version.hpp
+src/testing/CMakeFiles/benchmark.dir/system/curled.cpp.o
+ /home/dev/git/bitgrinder_v2/src/testing/include/system/curled.hpp
+ /home/dev/git/bitgrinder_v2/src/testing/include/system/json.hpp
+ /home/dev/git/bitgrinder_v2/src/testing/include/system/testing/catch.hpp
+ /home/dev/git/bitgrinder_v2/src/testing/system/curled.cpp

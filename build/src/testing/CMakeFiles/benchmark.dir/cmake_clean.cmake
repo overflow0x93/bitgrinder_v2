@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/benchmark.dir/benchmark.cpp.o"
+  "CMakeFiles/benchmark.dir/system/curled.cpp.o"
   "benchmark.pdb"
   "benchmark"
 )

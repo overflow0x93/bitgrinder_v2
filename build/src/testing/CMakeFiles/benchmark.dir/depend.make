@@ -1309,3 +1309,8 @@ src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: /usr/local/include/boost/u
 src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: /usr/local/include/boost/utility/swap.hpp
 src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: /usr/local/include/boost/version.hpp
 
+src/testing/CMakeFiles/benchmark.dir/system/curled.cpp.o: ../src/testing/include/system/curled.hpp
+src/testing/CMakeFiles/benchmark.dir/system/curled.cpp.o: ../src/testing/include/system/json.hpp
+src/testing/CMakeFiles/benchmark.dir/system/curled.cpp.o: ../src/testing/include/system/testing/catch.hpp
+src/testing/CMakeFiles/benchmark.dir/system/curled.cpp.o: ../src/testing/system/curled.cpp
+
