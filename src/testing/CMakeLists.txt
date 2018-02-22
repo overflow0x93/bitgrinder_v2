@@ -10,7 +10,9 @@ add_executable(testing
 
 add_executable(benchmark
         benchmark.cpp
+	system/curled.cpp
         include/benchmark.hpp
+        include/system/curled.hpp
         include/system/json.hpp
         include/system/strtk.hpp
         include/system/systatus.hpp

@@ -4,6 +4,8 @@
 src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o
  /home/dev/git/bitgrinder_v2/src/testing/benchmark.cpp
  /home/dev/git/bitgrinder_v2/src/testing/include/benchmark.hpp
+ /home/dev/git/bitgrinder_v2/src/testing/include/system/curled.hpp
+ /home/dev/git/bitgrinder_v2/src/testing/include/system/json.hpp
  /home/dev/git/bitgrinder_v2/src/testing/include/system/strtk.hpp
  /home/dev/git/bitgrinder_v2/src/testing/include/system/testing/catch.hpp
  /usr/local/include/boost/aligned_storage.hpp

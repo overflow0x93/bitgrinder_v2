@@ -3,6 +3,8 @@
 
 src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: ../src/testing/benchmark.cpp
 src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: ../src/testing/include/benchmark.hpp
+src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: ../src/testing/include/system/curled.hpp
+src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: ../src/testing/include/system/json.hpp
 src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: ../src/testing/include/system/strtk.hpp
 src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: ../src/testing/include/system/testing/catch.hpp
 src/testing/CMakeFiles/benchmark.dir/benchmark.cpp.o: /usr/local/include/boost/aligned_storage.hpp
