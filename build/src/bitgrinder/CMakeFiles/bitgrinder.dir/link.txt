@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/bitgrinder.dir/bitgrinder.cpp.o  -o bitgrinder -fopenmp -lpthread -lcurl -lcrypto 

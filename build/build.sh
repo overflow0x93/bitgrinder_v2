@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Building
-cmake ../ && make
+cmake -DCMAKE_INSTALL_PREFIX=../bin ../ && make
 
 # Testing
 # make test

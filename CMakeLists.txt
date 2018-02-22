@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 project(bitgrinder_v2 VERSION 0.1 LANGUAGES CXX)
-# set(CMAKE_CXX_STANDARD 11)
+#set(CMAKE_CXX_STANDARD 11)
 include(GNUInstallDirs)
 
 
@@ -25,12 +25,8 @@ IF (CURL_FOUND)
     include_directories(${CURL_INCLUDE_DIR})
 endif ()
 
-# Some other library that we import that was also built using CMake
-# and has an exported target.
-# find_package(MyOtherLibrary REQUIRED)
-
 # Targets that we develop here
 enable_testing()
 add_subdirectory(src/bitgrinder)
-#add_subdirectory(app)
+add_subdirectory(src/testing)
 

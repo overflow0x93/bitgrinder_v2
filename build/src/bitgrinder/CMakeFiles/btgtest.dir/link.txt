@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/btgtest.dir/system/testing/btgtest.cpp.o  -o btgtest -fopenmp -lpthread -lcurl -lcrypto 
